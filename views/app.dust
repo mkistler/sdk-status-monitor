@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bluemix Mobile Services SDK Monitoring Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <style>
+        img.githubicon {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1 class="text-center">Bluemix Mobile Services SDK Monitoring Page</h1>
+<hr/>
+
+<table class="table table-striped table-hover">
+<thead>
+    <td colspan="2"></td>
+    <td colspan="2"><h4>Client SDKs</h4></td>
+    <td colspan="3"><h4>Server SDKs</h4></td>
+</thead>
+<thead>
+    <td><strong>Component</strong></td>
+    <td><strong>Branch</strong></td>
+    <td><strong>iOS (Swift)</strong></td>
+    <td><strong>Android (Java)</strong></td>
+    <td><strong>Node.js</strong></td>
+    <td><strong>Java</strong></td>
+    <td><strong>Swift</strong></td>
+</thead>
+
+{#repos}
+<tr>
+    <td rowspan="2">
+        <h5>{name}</h5>
+    </td>
+    <td>master</td>
+    <td>
+        {#ios}
+        <a href="https://github.com/{ios}/tree/master" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
+        <a href="https://travis-ci.org/{ios}" target="_blank"><img src="https://travis-ci.org/{ios}.svg?branch=master"/></a>
+        {:else}---{/ios}
+    </td>
+    <td>
+        {#android}
+        <a href="https://github.com/{android}/tree/master" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
+        <a href="https://travis-ci.org/{android}" target="_blank"><img src="https://travis-ci.org/{android}.svg?branch=master"/>
+        {:else}---{/android}
+    </td>
+    <td>
+        {#nodejs}
+        <a href="https://github.com/{nodejs}/tree/master" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
+        <a href="https://travis-ci.org/{nodejs}" target="_blank"><img src="https://travis-ci.org/{nodejs}.svg?branch=master"/>
+        {:else}---{/nodejs}
+    </td>
+    <td>
+        {#java}
+        <a href="https://github.com/{java}/tree/master" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
+        <a href="https://travis-ci.org/{java}" target="_blank"><img src="https://travis-ci.org/{java}.svg?branch=master"/>
+        {:else}---{/java}
+    </td>
+    <td>
+        {#swift}
+        <a href="https://github.com/{swift}/tree/master" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
+        <a href="https://travis-ci.org/{swift}" target="_blank"><img src="https://travis-ci.org/{swift}.svg?branch=master"/>
+        {:else}---{/swift}
+    </td>
+</tr>
+<tr>
+    <td>development</td>
+    <td>
+        {#ios}
+        <a href="https://github.com/{ios}/tree/development" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
+        <a href="https://travis-ci.org/{ios}" target="_blank"><img src="https://travis-ci.org/{ios}.svg?branch=development"/></a>
+        {:else}---{/ios}
+    </td>
+    <td>
+        {#android}
+        <a href="https://github.com/{android}/tree/development" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
+        <a href="https://travis-ci.org/{android}" target="_blank"><img src="https://travis-ci.org/{android}.svg?branch=development"/></a>
+        {:else}---{/android}
+    </td>
+    <td>
+        {#nodejs}
+        <a href="https://github.com/{nodejs}/tree/development" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
+        <a href="https://travis-ci.org/{nodejs}" target="_blank"><img src="https://travis-ci.org/{nodejs}.svg?branch=development"/></a>
+        {:else}---{/nodejs}
+    </td>
+    <td>
+        {#java}
+        <a href="https://github.com/{java}/tree/development" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
+        <a href="https://travis-ci.org/{java}" target="_blank"><img src="https://travis-ci.org/{java}.svg?branch=development"/></a>
+        {:else}---{/java}
+    </td>
+    <td>
+        {#swift}
+        <a href="https://github.com/{swift}/tree/development" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
+        <a href="https://travis-ci.org/{swift}" target="_blank"><img src="https://travis-ci.org/{swift}.svg?branch=development"/></a>
+        {:else}---{/swift}
+    </td>
+</tr>
+
+{/repos}
+
+</table>
+<script src="http://code.jquery.com/jquery.js"></script>
+</body>
+</html>
+
+

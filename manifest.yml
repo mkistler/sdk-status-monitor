@@ -1,0 +1,9 @@
+applications:
+- disk_quota: 512M
+  host: sdk-status-monitor
+  name: sdk-status-monitor
+  command: node .
+  memory: 512M
+  timeout: 180
+  instances: 3
+

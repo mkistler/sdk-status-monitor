@@ -1,0 +1,63 @@
+{
+	"PORT":"9080",
+	"repos": [
+		{
+			"name": "BMSCore",
+			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-core",
+			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-core"
+		},
+		{
+			"name": "BMSPush",
+			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-push",
+			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-push",
+			"nodejs": "ibm-bluemix-mobile-services/bms-pushnotifications-serversdk-nodejs",
+			"java": "ibm-bluemix-mobile-services/bms-pushnotifications-serversdk-java",
+			"swift": "ibm-bluemix-mobile-services/bms-pushnotifications-serversdk-swift"
+		},
+		{
+			"name": "BMSAnalyticsAPI",
+			"android": "ibm-bluemix-mobile-services/mfp-clientsdk-android-analyticsspec",
+			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-analytics-api"
+		},
+		{
+			"name": "BMSAnalytics",
+			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-analytics",
+			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-analytics"
+		},
+		{
+			"name": "BMSSecurity (MCA)",
+			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-security",
+			"swift": "ibm-bluemix-mobile-services/bms-mca-serversdk-swift",
+			"nodejs": "ibm-bluemix-mobile-services/bms-mca-token-validation-strategy"
+		},
+		{
+			"name": "BMSSecurityFacebookAuthentication",
+			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-security-facebookauthentication",
+			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-security-facebookauthentication"
+		},
+		{
+			"name": "BMSSecurityGoogleAuthentication",
+			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-security-googleauthentication",
+			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-security-googleauthentication"
+		},
+		{
+			"name": "BMSSecurityKituraCredentialsPlugin",
+			"swift": "ibm-bluemix-mobile-services/bms-mca-kitura-credentials-plugin"
+		},
+		{
+			"name": "ObjectStorage",
+			"android": "ibm-bluemix-mobile-services/bluemix-objectstorage-clientsdk-android",
+			"ios": "ibm-bluemix-mobile-services/bluemix-objectstorage-clientsdk-swift",
+			"nodejs": "ibm-bluemix-mobile-services/bluemix-objectstorage-serversdk-nodejs",
+			"swift": "ibm-bluemix-mobile-services/bluemix-objectstorage-serversdk-swift"
+		},
+		{
+			"name": "BluemixSimpleLogger",
+			"swift": "ibm-bluemix-mobile-services/bluemix-simple-logger-swift"
+		},
+		{
+			"name": "BluemixSimpleHttpClient",
+			"swift": "ibm-bluemix-mobile-services/bluemix-simple-http-client-swift"
+		}
+	]
+}
