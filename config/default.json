@@ -25,6 +25,11 @@
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-analytics"
 		},
 		{
+			"name": "AppID",
+			"android": "ibm-bluemix-mobile-services/appid-clientsdk-android",
+			"ios": "ibm-bluemix-mobile-services/appid-clientsdk-swift"
+		},
+		{
 			"name": "BMSSecurity (MCA)",
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-security",
 			"swift": "ibm-bluemix-mobile-services/bms-mca-serversdk-swift",
