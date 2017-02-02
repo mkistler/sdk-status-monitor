@@ -2,9 +2,21 @@
 	"PORT":"9080",
 	"repos": [
 		{
+			"name": "AppID",
+			"android": "ibm-bluemix-mobile-services/appid-clientsdk-android",
+			"ios": "ibm-bluemix-mobile-services/appid-clientsdk-swift",
+			"nodejs": "ibm-bluemix-mobile-services/appid-serversdk-nodejs",
+			"npm": "bluemix-appid",
+			"cocoapods": "BluemixAppID",
+			"mavenAndroid": "com.ibm.bluemix.appid/android"
+
+		},
+		{
 			"name": "BMSCore",
 			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-core",
-			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-core"
+			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-core",
+			"cocoapods": "BMSCore",
+			"mavenAndroid": "com.ibm.mobilefirstplatform.clientsdk.android/core"
 		},
 		{
 			"name": "BMSPush",
@@ -12,38 +24,51 @@
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-push",
 			"nodejs": "ibm-bluemix-mobile-services/bms-pushnotifications-serversdk-nodejs",
 			"java": "ibm-bluemix-mobile-services/bms-pushnotifications-serversdk-java",
-			"swift": "ibm-bluemix-mobile-services/bms-pushnotifications-serversdk-swift"
+			"swift": "ibm-bluemix-mobile-services/bms-pushnotifications-serversdk-swift",
+			"npm": "bluemix-push-notifications",
+			"cocoapods": "BMSPush",
+			"mavenAndroid": "com.ibm.mobilefirstplatform.clientsdk.android/push",
+			"mavenJava": "com.ibm.mobilefirstplatform.serversdk.java/push"
 		},
 		{
 			"name": "BMSAnalyticsAPI",
 			"android": "ibm-bluemix-mobile-services/mfp-clientsdk-android-analyticsspec",
-			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-analytics-api"
+			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-analytics-api",
+			"cocoapods": "BMSAnalyticsAPI",
+			"mavenAndroid": "com.ibm.mobilefirstplatform.clientsdk.android/analyticsapi"
+
 		},
 		{
 			"name": "BMSAnalytics",
 			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-analytics",
-			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-analytics"
-		},
-		{
-			"name": "AppID",
-			"android": "ibm-bluemix-mobile-services/appid-clientsdk-android",
-			"ios": "ibm-bluemix-mobile-services/appid-clientsdk-swift"
+			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-analytics",
+			"cocoapods": "BMSAnalytics",
+			"mavenAndroid": "com.ibm.mobilefirstplatform.clientsdk.android/analytics"
+
 		},
 		{
 			"name": "BMSSecurity (MCA)",
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-security",
 			"swift": "ibm-bluemix-mobile-services/bms-mca-serversdk-swift",
-			"nodejs": "ibm-bluemix-mobile-services/bms-mca-token-validation-strategy"
+			"nodejs": "ibm-bluemix-mobile-services/bms-mca-token-validation-strategy",
+			"npm": "bms-mca-token-validation-strategy",
+			"cocoapods": "BMSSecurity",
+			"mavenAndroid": "com.ibm.mobilefirstplatform.clientsdk.android/core"
 		},
 		{
 			"name": "BMSSecurityFacebookAuthentication",
 			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-security-facebookauthentication",
-			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-security-facebookauthentication"
+			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-security-facebookauthentication",
+			"cocoapods": "BMSFacebookAuthentication",
+			"mavenAndroid": "com.ibm.mobilefirstplatform.clientsdk.android/facebookauthentication"
+
 		},
 		{
 			"name": "BMSSecurityGoogleAuthentication",
 			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-security-googleauthentication",
-			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-security-googleauthentication"
+			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-security-googleauthentication",
+			"cocoapods": "BMSGoogleAuthentication",
+			"mavenAndroid": "com.ibm.mobilefirstplatform.clientsdk.android/googleauthentication"
 		},
 		{
 			"name": "BMSSecurityKituraCredentialsPlugin",
@@ -54,7 +79,9 @@
 			"android": "ibm-bluemix-mobile-services/bluemix-objectstorage-clientsdk-android",
 			"ios": "ibm-bluemix-mobile-services/bluemix-objectstorage-clientsdk-swift",
 			"nodejs": "ibm-bluemix-mobile-services/bluemix-objectstorage-serversdk-nodejs",
-			"swift": "ibm-bluemix-mobile-services/bluemix-objectstorage-serversdk-swift"
+			"swift": "ibm-bluemix-mobile-services/bluemix-objectstorage-serversdk-swift",
+			"npm": "bluemix-objectstorage",
+			"cocoapods": "BluemixObjectStorage"
 		},
 		{
 			"name": "BluemixSimpleLogger",
