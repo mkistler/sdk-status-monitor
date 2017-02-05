@@ -42,7 +42,7 @@
     <td>
         {#ios}
         <a href="https://github.com/{ios}/tree/master" target="_blank"><img src="/github-icon.png" class="githubicon"/>
-        <a href="https://travis-ci.org/{ios}" target="_blank"><img src="https://travis-ci.org/{ios}.svg?branch=master"/><br/>
+        <a href="https://travis-ci.org/{ios}/branches" target="_blank"><img src="https://travis-ci.org/{ios}.svg?branch=master"/><br/>
 		<a href="https://coveralls.io/github/{ios}" target="_blank"><img src="https://coveralls.io/repos/github/{ios}/badge.svg"/><br/>
 		<a href="https://cocoapods.org/pods/{cocoapods}" target="_blank"><img src="https://img.shields.io/cocoapods/v/{cocoapods}.svg"/>
         {:else}---{/ios}
@@ -50,7 +50,7 @@
     <td>
         {#android}
         <a href="https://github.com/{android}/tree/master" target="_blank"><img src="/github-icon.png" class="githubicon"/>
-        <a href="https://travis-ci.org/{android}" target="_blank"><img src="https://travis-ci.org/{android}.svg?branch=master"/><br/>
+        <a href="https://travis-ci.org/{android}/branches" target="_blank"><img src="https://travis-ci.org/{android}.svg?branch=master"/><br/>
 		<a href="https://coveralls.io/github/{ios}" target="_blank"><img src="https://coveralls.io/repos/github/{ios}/badge.svg"/><br/>
 		<a href="https://search.maven.org/#search|ga|1|{mavenAndroid}" target="_blank"><img src="https://img.shields.io/maven-central/v/{mavenAndroid}.svg"/>
         {:else}---{/android}
@@ -58,7 +58,7 @@
     <td>
         {#nodejs}
         <a href="https://github.com/{nodejs}/tree/master" target="_blank"><img src="/github-icon.png" class="githubicon"/>
-        <a href="https://travis-ci.org/{nodejs}" target="_blank"><img src="https://travis-ci.org/{nodejs}.svg?branch=master"/><br/>
+        <a href="https://travis-ci.org/{nodejs}/branches" target="_blank"><img src="https://travis-ci.org/{nodejs}.svg?branch=master"/><br/>
 		<a href="https://coveralls.io/github/{nodejs}" target="_blank"><img src="https://coveralls.io/repos/github/{nodejs}/badge.svg"/><br/>
 		<a href="https://www.npmjs.com/package/{npm}" target="_blank"><img src="https://img.shields.io/npm/v/{npm}.svg"/>
         {:else}---{/nodejs}
@@ -66,7 +66,7 @@
     <td>
         {#java}
         <a href="https://github.com/{java}/tree/master" target="_blank"><img src="/github-icon.png" class="githubicon"/>
-        <a href="https://travis-ci.org/{java}" target="_blank"><img src="https://travis-ci.org/{java}.svg?branch=master"/><br/>
+        <a href="https://travis-ci.org/{java}/branches" target="_blank"><img src="https://travis-ci.org/{java}.svg?branch=master"/><br/>
 		<a href="https://coveralls.io/github/{java}" target="_blank"><img src="https://coveralls.io/repos/github/{java}/badge.svg"/><br/>
 		<a href="https://search.maven.org/#search|ga|1|{mavenJava}" target="_blank"><img src="https://img.shields.io/maven-central/v/{mavenJava}.svg"/>
         {:else}---{/java}
@@ -74,7 +74,7 @@
     <td>
         {#swift}
         <a href="https://github.com/{swift}/tree/master" target="_blank"><img src="/github-icon.png" class="githubicon"/>
-        <a href="https://travis-ci.org/{swift}" target="_blank"><img src="https://travis-ci.org/{swift}.svg?branch=master"/><br/>
+        <a href="https://travis-ci.org/{swift}/branches" target="_blank"><img src="https://travis-ci.org/{swift}.svg?branch=master"/><br/>
 		<a href="https://coveralls.io/github/{swift}" target="_blank"><img src="https://coveralls.io/repos/github/{swift}/badge.svg"/><br/>
 		<a href="https://github.com/{swift}/tree/master" target="_blank"><img src="https://img.shields.io/github/tag/{swift}.svg"/><br/>
         {:else}---{/swift}
@@ -85,35 +85,35 @@
     <td>
         {#ios}
         <a href="https://github.com/{ios}/tree/development" target="_blank"><img src="/github-icon.png" class="githubicon"/>
-        <a href="https://travis-ci.org/{ios}" target="_blank"><img src="https://travis-ci.org/{ios}.svg?branch=development"/><br/>
+        <a href="https://travis-ci.org/{ios}/branches" target="_blank"><img src="https://travis-ci.org/{ios}.svg?branch=development"/><br/>
 		<a href="https://coveralls.io/github/{ios}?branch=development" target="_blank"><img src="https://coveralls.io/repos/github/{ios}/badge.svg?branch=development"/>
         {:else}---{/ios}
     </td>
     <td>
         {#android}
         <a href="https://github.com/{android}/tree/development" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
-        <a href="https://travis-ci.org/{android}" target="_blank"><img src="https://travis-ci.org/{android}.svg?branch=development"/><br/>
+        <a href="https://travis-ci.org/{android}/branches" target="_blank"><img src="https://travis-ci.org/{android}.svg?branch=development"/><br/>
 		<a href="https://coveralls.io/github/{android}?branch=development" target="_blank"><img src="https://coveralls.io/repos/github/{android}/badge.svg?branch=development"/>
         {:else}---{/android}
     </td>
     <td>
         {#nodejs}
         <a href="https://github.com/{nodejs}/tree/development" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
-        <a href="https://travis-ci.org/{nodejs}" target="_blank"><img src="https://travis-ci.org/{nodejs}.svg?branch=development"/><br/>
+        <a href="https://travis-ci.org/{nodejs}/branches" target="_blank"><img src="https://travis-ci.org/{nodejs}.svg?branch=development"/><br/>
 		<a href="https://coveralls.io/github/{nodejs}?branch=development" target="_blank"><img src="https://coveralls.io/repos/github/{nodejs}/badge.svg?branch=development"/>
         {:else}---{/nodejs}
     </td>
     <td>
         {#java}
         <a href="https://github.com/{java}/tree/development" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
-        <a href="https://travis-ci.org/{java}" target="_blank"><img src="https://travis-ci.org/{java}.svg?branch=development"/><br/>
+        <a href="https://travis-ci.org/{java}/branches" target="_blank"><img src="https://travis-ci.org/{java}.svg?branch=development"/><br/>
 		<a href="https://coveralls.io/github/{java}?branch=development" target="_blank"><img src="https://coveralls.io/repos/github/{java}/badge.svg?branch=development"/>
         {:else}---{/java}
     </td>
     <td>
         {#swift}
         <a href="https://github.com/{swift}/tree/development" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
-        <a href="https://travis-ci.org/{swift}" target="_blank"><img src="https://travis-ci.org/{swift}.svg?branch=development"/><br/>
+        <a href="https://travis-ci.org/{swift}/branches" target="_blank"><img src="https://travis-ci.org/{swift}.svg?branch=development"/><br/>
 		<a href="https://coveralls.io/github/{swift}?branch=development" target="_blank"><img src="https://coveralls.io/repos/github/{swift}/badge.svg?branch=development"/>
         {:else}---{/swift}
     </td>
