@@ -44,8 +44,10 @@
         <a href="https://github.com/{ios}/tree/master" target="_blank"><img src="/github-icon.png" class="githubicon"/>
         <a href="https://travis-ci.org/{ios}/branches" target="_blank"><img src="https://travis-ci.org/{ios}.svg?branch=master"/><br/>
 		<a href="https://coveralls.io/github/{ios}" target="_blank"><img src="https://coveralls.io/repos/github/{ios}/badge.svg"/><br/>
-		<a href="https://cocoapods.org/pods/{cocoapods}" target="_blank"><img src="https://img.shields.io/cocoapods/v/{cocoapods}.svg"/>
-        {:else}---{/ios}
+		<a href="https://cocoapods.org/pods/{cocoapods}" target="_blank"><img src="https://img.shields.io/cocoapods/v/{cocoapods}.svg"/><br/>
+		<a href="https://cocoapods.org/pods/{cocoapods}" target="_blank"><img src="https://img.shields.io/cocoapods/dt/{cocoapods}.svg"/><br/>
+		<a href="https://cocoapods.org/pods/{cocoapods}" target="_blank"><img src="https://img.shields.io/cocoapods/dm/{cocoapods}.svg"/><br/>
+		{:else}---{/ios}
     </td>
     <td>
         {#android}
@@ -60,7 +62,9 @@
         <a href="https://github.com/{nodejs}/tree/master" target="_blank"><img src="/github-icon.png" class="githubicon"/>
         <a href="https://travis-ci.org/{nodejs}/branches" target="_blank"><img src="https://travis-ci.org/{nodejs}.svg?branch=master"/><br/>
 		<a href="https://coveralls.io/github/{nodejs}" target="_blank"><img src="https://coveralls.io/repos/github/{nodejs}/badge.svg"/><br/>
-		<a href="https://www.npmjs.com/package/{npm}" target="_blank"><img src="https://img.shields.io/npm/v/{npm}.svg"/>
+		<a href="https://www.npmjs.com/package/{npm}" target="_blank"><img src="https://img.shields.io/npm/v/{npm}.svg"/><br/>
+		<a href="https://www.npmjs.com/package/{npm}" target="_blank"><img src="https://img.shields.io/npm/dt/{npm}.svg"/><br/>
+		<a href="https://www.npmjs.com/package/{npm}" target="_blank"><img src="https://img.shields.io/npm/dm/{npm}.svg"/><br/>
         {:else}---{/nodejs}
     </td>
     <td>

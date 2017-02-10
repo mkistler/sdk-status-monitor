@@ -3,13 +3,12 @@
 	"repos": [
 		{
 			"name": "AppID",
-			"android": "ibm-bluemix-mobile-services/appid-clientsdk-android",
-			"ios": "ibm-bluemix-mobile-services/appid-clientsdk-swift",
-			"nodejs": "ibm-bluemix-mobile-services/appid-serversdk-nodejs",
+			"android": "ibm-cloud-security/appid-clientsdk-android",
+			"ios": "ibm-cloud-security/appid-clientsdk-swift",
+			"nodejs": "ibm-cloud-security/appid-serversdk-nodejs",
 			"npm": "bluemix-appid",
 			"cocoapods": "BluemixAppID",
 			"mavenAndroid": "com.ibm.bluemix.appid/android"
-
 		},
 		{
 			"name": "BMSCore",
