@@ -3,15 +3,20 @@
 	"repos": [
 		{
 			"name": "AppID",
+			"htmlClass": "appid",
 			"android": "ibm-cloud-security/appid-clientsdk-android",
 			"ios": "ibm-cloud-security/appid-clientsdk-swift",
 			"nodejs": "ibm-cloud-security/appid-serversdk-nodejs",
 			"npm": "bluemix-appid",
 			"cocoapods": "BluemixAppID",
-			"mavenAndroid": "com.ibm.bluemix.appid/android"
+			"mavenAndroid": "com.ibm.bluemix.appid/android",
+			"codacy-nodejs": "3156f40a37cb4026a443082fc1afcaa4",
+			"codacy-android": "d41f8f069dd343769fcbdb55089561fc",
+			"codacy-ios": "22a4edfb764a41daabef740524c812ca"
 		},
 		{
 			"name": "BMSCore",
+			"htmlClass": "core",
 			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-core",
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-core",
 			"cocoapods": "BMSCore",
@@ -19,6 +24,7 @@
 		},
 		{
 			"name": "BMSPush",
+			"htmlClass": "push",
 			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-push",
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-push",
 			"nodejs": "ibm-bluemix-mobile-services/bms-pushnotifications-serversdk-nodejs",
@@ -31,6 +37,7 @@
 		},
 		{
 			"name": "BMSAnalyticsAPI",
+			"htmlClass": "analytics",
 			"android": "ibm-bluemix-mobile-services/mfp-clientsdk-android-analyticsspec",
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-analytics-api",
 			"cocoapods": "BMSAnalyticsAPI",
@@ -39,6 +46,7 @@
 		},
 		{
 			"name": "BMSAnalytics",
+			"htmlClass": "analytics",
 			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-analytics",
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-analytics",
 			"cocoapods": "BMSAnalytics",
@@ -47,6 +55,7 @@
 		},
 		{
 			"name": "BMSSecurity (MCA)",
+			"htmlClass": "appid",
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-security",
 			"swift": "ibm-bluemix-mobile-services/bms-mca-serversdk-swift",
 			"nodejs": "ibm-bluemix-mobile-services/bms-mca-token-validation-strategy",
@@ -56,6 +65,7 @@
 		},
 		{
 			"name": "BMSSecurityFacebookAuthentication",
+			"htmlClass": "appid",
 			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-security-facebookauthentication",
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-security-facebookauthentication",
 			"cocoapods": "BMSFacebookAuthentication",
@@ -64,6 +74,7 @@
 		},
 		{
 			"name": "BMSSecurityGoogleAuthentication",
+			"htmlClass": "appid",
 			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-security-googleauthentication",
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-security-googleauthentication",
 			"cocoapods": "BMSGoogleAuthentication",
@@ -71,10 +82,12 @@
 		},
 		{
 			"name": "BMSSecurityKituraCredentialsPlugin",
+			"htmlClass": "appid",
 			"swift": "ibm-bluemix-mobile-services/bms-mca-kitura-credentials-plugin"
 		},
 		{
 			"name": "ObjectStorage",
+			"htmlClass": "misc",
 			"android": "ibm-bluemix-mobile-services/bluemix-objectstorage-clientsdk-android",
 			"ios": "ibm-bluemix-mobile-services/bluemix-objectstorage-clientsdk-swift",
 			"nodejs": "ibm-bluemix-mobile-services/bluemix-objectstorage-serversdk-nodejs",
@@ -84,10 +97,12 @@
 		},
 		{
 			"name": "BluemixSimpleLogger",
+			"htmlClass": "misc",
 			"swift": "ibm-bluemix-mobile-services/bluemix-simple-logger-swift"
 		},
 		{
 			"name": "BluemixSimpleHttpClient",
+			"htmlClass": "misc",
 			"swift": "ibm-bluemix-mobile-services/bluemix-simple-http-client-swift"
 		}
 	]
