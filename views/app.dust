@@ -15,7 +15,7 @@
         a {
             display: block;
         }
-        .build, .coverage, .release, .downloads, .appid, .analytics, .push, .misc {
+        .build, .coverage, .release, .downloads, .core, .appid, .analytics, .push, .misc {
             display: none;
         }
     </style>
