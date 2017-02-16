@@ -107,6 +107,9 @@
         <a href="https://github.com/{swift}/tree/master" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
         <a href="https://travis-ci.org/{swift}/branches" target="_blank" class="build"><img src="https://travis-ci.org/{swift}.svg?branch=master"/></a>
 		<a href="https://coveralls.io/github/{swift}" target="_blank" class="quality"><img src="https://coveralls.io/repos/github/{swift}/badge.svg"/></a>
+		{#codacy-swift}
+		<a href="https://www.codacy.com/app/{swift}/dashboard" target="_blank" class="quality"><img src="https://api.codacy.com/project/badge/Grade/{codacy-swift}?branch=master"/></a>
+		{/codacy-swift}
 		<a href="https://github.com/{swift}/tree/master" target="_blank" class="release"><img src="https://img.shields.io/github/tag/{swift}.svg"/></a>
         {:else}---{/swift}
     </td>
@@ -155,6 +158,9 @@
         <a href="https://github.com/{swift}/tree/development" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
         <a href="https://travis-ci.org/{swift}/branches" target="_blank" class="build"><img src="https://travis-ci.org/{swift}.svg?branch=development"/></a>
 		<a href="https://coveralls.io/github/{swift}?branch=development" target="_blank" class="quality"><img src="https://coveralls.io/repos/github/{swift}/badge.svg?branch=development"/></a>
+		{#codacy-swift}
+		<a href="https://www.codacy.com/app/{swift}/dashboard" target="_blank" class="quality"><img src="https://api.codacy.com/project/badge/Grade/{codacy-swift}?branch=development"/></a>
+		{/codacy-swift}
         {:else}---{/swift}
     </td>
 </tr>

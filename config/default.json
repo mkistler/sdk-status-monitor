@@ -7,12 +7,14 @@
 			"android": "ibm-cloud-security/appid-clientsdk-android",
 			"ios": "ibm-cloud-security/appid-clientsdk-swift",
 			"nodejs": "ibm-cloud-security/appid-serversdk-nodejs",
+			"swift": "ibm-cloud-security/appid-serversdk-swift",
 			"npm": "bluemix-appid",
 			"cocoapods": "BluemixAppID",
 			"mavenAndroid": "com.ibm.bluemix.appid/android",
 			"codacy-nodejs": "3156f40a37cb4026a443082fc1afcaa4",
 			"codacy-android": "d41f8f069dd343769fcbdb55089561fc",
-			"codacy-ios": "22a4edfb764a41daabef740524c812ca"
+			"codacy-ios": "22a4edfb764a41daabef740524c812ca",
+			"codacy-swift": "a6952171ff5c4adaa6cf41a8652516d4"
 		},
 		{
 			"name": "BMSCore",
