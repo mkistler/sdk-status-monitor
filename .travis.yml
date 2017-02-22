@@ -8,4 +8,4 @@ deploy:
   organization: $CF_ORG
   space: $CF_SPACE
   on:
-    repo: AntonAleksandrov/sdk-status-monitor
+    repo: aal80/sdk-status-monitor
