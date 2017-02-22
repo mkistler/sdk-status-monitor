@@ -15,25 +15,29 @@
         a {
             display: block;
         }
-        .build, .coverage, .release, .downloads, .core, .appid, .analytics, .push, .misc {
+        .build, .coverage, .release, .downloads, .core, .appid, .analytics, .push, .mca, .misc {
             display: none;
         }
     </style>
 </head>
 <body>
 <h1 style="text-align: center">IBM Bluemix Mobile Services SDK status monitor</h1>
-<div style="position: fixed; float: right; right: 0px; top: 0px; text-align: right">
-<button id="ButtonBuild" type="button" class="btn btn-default btn-sm">Builds</button>
-<button id="ButtonQuality" type="button" class="btn btn-default btn-sm">Quality</button>
-<button id="ButtonReleases" type="button" class="btn btn-default btn-sm">Releases</button>
-<button id="ButtonDownloads" type="button" class="btn btn-default btn-sm">Downloads</button>
-<br/>
-<button id="ButtonCore" type="button" class="btn btn-default btn-sm">Core</button>
-<button id="ButtonAppId" type="button" class="btn btn-default btn-sm">AppID</button>
-<button id="ButtonAnalytics" type="button" class="btn btn-default btn-sm">Analytics</button>
-<button id="ButtonPush" type="button" class="btn btn-default btn-sm">Push</button>
-<button id="ButtonMisc" type="button" class="btn btn-default btn-sm">Misc</button>
-</div>
+<div style="position: fixed; float: right; right: 5px; top: 5px; text-align: right; padding: 5px; background-color: #EEEEEE; border: 1px solid black; border-radius: 8px; >
+    <div style="">
+    <span>Filters:  </span>
+    <button id="ButtonBuild" type="button" class="btn btn-default btn-sm">Builds</button>
+    <button id="ButtonQuality" type="button" class="btn btn-default btn-sm">Quality</button>
+    <button id="ButtonReleases" type="button" class="btn btn-default btn-sm">Releases</button>
+    <button id="ButtonDownloads" type="button" class="btn btn-default btn-sm">Downloads</button>
+    <br/>
+    <button id="ButtonCore" type="button" class="btn btn-default btn-sm">Core</button>
+    <button id="ButtonAppId" type="button" class="btn btn-default btn-sm">AppID</button>
+    <button id="ButtonAnalytics" type="button" class="btn btn-default btn-sm">Analytics</button>
+    <button id="ButtonPush" type="button" class="btn btn-default btn-sm">Push</button>
+    <button id="ButtonMCA" type="button" class="btn btn-default btn-sm">MCA</button>
+    <button id="ButtonMisc" type="button" class="btn btn-default btn-sm">Misc</button>
+    </div>
+<div>
 
 <table class="table table-striped table-hover table-condensed table-bordered">
 <thead>
@@ -99,6 +103,9 @@
         <a href="https://github.com/{java}/tree/master" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
         <a href="https://travis-ci.org/{java}/branches" target="_blank" class="build"><img src="https://travis-ci.org/{java}.svg?branch=master"/></a>
 		<a href="https://coveralls.io/github/{java}" target="_blank" class="quality"><img src="https://coveralls.io/repos/github/{java}/badge.svg"/></a>
+		{#codacy-java}
+		<a href="https://www.codacy.com/app/{java}/dashboard" target="_blank" class="quality"><img src="https://api.codacy.com/project/badge/Grade/{codacy-java}?branch=master"/></a>
+		{/codacy-java}
 		<a href="https://search.maven.org/#search|ga|1|{mavenJava}" target="_blank" class="release"><img src="https://img.shields.io/maven-central/v/{mavenJava}.svg"/></a>
         {:else}---{/java}
     </td>
@@ -151,6 +158,9 @@
         <a href="https://github.com/{java}/tree/development" target="_blank"><img src="/github-icon.png" class="githubicon"/></a>
         <a href="https://travis-ci.org/{java}/branches" target="_blank" class="build"><img src="https://travis-ci.org/{java}.svg?branch=development"/></a>
 		<a href="https://coveralls.io/github/{java}?branch=development" target="_blank" class="quality"><img src="https://coveralls.io/repos/github/{java}/badge.svg?branch=development"/></a>
+		{#codacy-java}
+		<a href="https://www.codacy.com/app/{java}/dashboard" target="_blank" class="quality"><img src="https://api.codacy.com/project/badge/Grade/{codacy-java}?branch=development"/></a>
+		{/codacy-java}
         {:else}---{/java}
     </td>
     <td>

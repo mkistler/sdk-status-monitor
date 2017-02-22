@@ -10,8 +10,8 @@
 	var $buttonAppId;
 	var $buttonAnalytics;
 	var $buttonPush;
+	var $buttonMCA;
 	var $buttonMisc;
-
 
 	var SDK_STATUS_MONITOR_BUTTON_PREFIX = "SDK_STATUS_MONITOR_BUTTON";
 	var SDK_STATUS_MONITOR_BUTTON_BUILD = "SDK_STATUS_MONITOR_BUTTON.build";
@@ -23,6 +23,7 @@
 	var SDK_STATUS_MONITOR_BUTTON_APP_ID = "SDK_STATUS_MONITOR_BUTTON.appid";
 	var SDK_STATUS_MONITOR_BUTTON_ANALYTICS = "SDK_STATUS_MONITOR_BUTTON.analytics";
 	var SDK_STATUS_MONITOR_BUTTON_PUSH = "SDK_STATUS_MONITOR_BUTTON.push";
+	var SDK_STATUS_MONITOR_BUTTON_MCA = "SDK_STATUS_MONITOR_BUTTON.mca";
 	var SDK_STATUS_MONITOR_BUTTON_MISC = "SDK_STATUS_MONITOR_BUTTON.misc";
 
 	function init(){
@@ -36,6 +37,7 @@
 		$buttonAppId = $("#ButtonAppId");
 		$buttonAnalytics = $("#ButtonAnalytics");
 		$buttonPush = $("#ButtonPush");
+		$buttonMCA = $("#ButtonMCA");
 		$buttonMisc = $("#ButtonMisc");
 
 		$(".btn").click(onButtonClicked);
@@ -64,6 +66,9 @@
 		if (localStorage && localStorage.getItem(SDK_STATUS_MONITOR_BUTTON_PUSH) != "false")
 			$buttonPush.click();
 
+		if (localStorage && localStorage.getItem(SDK_STATUS_MONITOR_BUTTON_MCA) != "false")
+			$buttonMCA.click();
+
 		if (localStorage && localStorage.getItem(SDK_STATUS_MONITOR_BUTTON_MISC) != "false")
 			$buttonMisc.click();
 
@@ -83,6 +88,7 @@
 				case "ButtonAppId": sectionClass = ".appid"; break;
 				case "ButtonAnalytics": sectionClass = ".analytics"; break;
 				case "ButtonPush": sectionClass = ".push"; break;
+				case "ButtonMCA": sectionClass = ".mca"; break;
 				case "ButtonMisc": sectionClass = ".misc"; break;
 			}
 
@@ -97,8 +103,6 @@
 				$(sectionClass).hide();
 				localStorage.setItem(SDK_STATUS_MONITOR_BUTTON_PREFIX + sectionClass, false);
 			}
-
-
 		}
 	}
 

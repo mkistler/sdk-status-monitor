@@ -22,7 +22,9 @@
 			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-core",
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-core",
 			"cocoapods": "BMSCore",
-			"mavenAndroid": "com.ibm.mobilefirstplatform.clientsdk.android/core"
+			"mavenAndroid": "com.ibm.mobilefirstplatform.clientsdk.android/core",
+			"codacy-ios": "a6f0b9a4961048cea4dec00ceabc6bfa",
+			"codacy-android": "33762c419c1a4743a0348c93686acb1c"
 		},
 		{
 			"name": "BMSPush",
@@ -35,7 +37,12 @@
 			"npm": "bluemix-push-notifications",
 			"cocoapods": "BMSPush",
 			"mavenAndroid": "com.ibm.mobilefirstplatform.clientsdk.android/push",
-			"mavenJava": "com.ibm.mobilefirstplatform.serversdk.java/push"
+			"mavenJava": "com.ibm.mobilefirstplatform.serversdk.java/push",
+			"codacy-nodejs": "cc6dd43d4d6d411cb9a31adff90d2252",
+			"codacy-android": "5c49c09a1f9f45c99c39623f8033d1eb",
+			"codacy-ios": "08bd0c46c0ae4485a3abc0fd8dffa4cf",
+			"codacy-swift": "51d26cb37b4d474887087d455a311a43",
+			"codacy-java": "fe43788a157c4c4b971a8918d29c4469"
 		},
 		{
 			"name": "BMSAnalyticsAPI",
@@ -43,7 +50,9 @@
 			"android": "ibm-bluemix-mobile-services/mfp-clientsdk-android-analyticsspec",
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-analytics-api",
 			"cocoapods": "BMSAnalyticsAPI",
-			"mavenAndroid": "com.ibm.mobilefirstplatform.clientsdk.android/analyticsapi"
+			"mavenAndroid": "com.ibm.mobilefirstplatform.clientsdk.android/analyticsapi",
+			"codacy-ios": "28b6315364374afa8bbfc21b6636ce7d",
+			"codacy-android": "a85292a5b8a540fea30b796732f30f06"
 
 		},
 		{
@@ -52,12 +61,14 @@
 			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-analytics",
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-analytics",
 			"cocoapods": "BMSAnalytics",
-			"mavenAndroid": "com.ibm.mobilefirstplatform.clientsdk.android/analytics"
+			"mavenAndroid": "com.ibm.mobilefirstplatform.clientsdk.android/analytics",
+			"codacy-ios": "5845c74509484096bc16afd8b43686bf",
+			"codacy-android": "a7341d4023484dfeb09bf79d0db97484"
 
 		},
 		{
 			"name": "BMSSecurity (MCA)",
-			"htmlClass": "appid",
+			"htmlClass": "mca",
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-security",
 			"swift": "ibm-bluemix-mobile-services/bms-mca-serversdk-swift",
 			"nodejs": "ibm-bluemix-mobile-services/bms-mca-token-validation-strategy",
@@ -67,7 +78,7 @@
 		},
 		{
 			"name": "BMSSecurityFacebookAuthentication",
-			"htmlClass": "appid",
+			"htmlClass": "mca",
 			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-security-facebookauthentication",
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-security-facebookauthentication",
 			"cocoapods": "BMSFacebookAuthentication",
@@ -76,7 +87,7 @@
 		},
 		{
 			"name": "BMSSecurityGoogleAuthentication",
-			"htmlClass": "appid",
+			"htmlClass": "mca",
 			"android": "ibm-bluemix-mobile-services/bms-clientsdk-android-security-googleauthentication",
 			"ios": "ibm-bluemix-mobile-services/bms-clientsdk-swift-security-googleauthentication",
 			"cocoapods": "BMSGoogleAuthentication",
@@ -84,7 +95,7 @@
 		},
 		{
 			"name": "BMSSecurityKituraCredentialsPlugin",
-			"htmlClass": "appid",
+			"htmlClass": "mca",
 			"swift": "ibm-bluemix-mobile-services/bms-mca-kitura-credentials-plugin"
 		},
 		{
@@ -95,17 +106,23 @@
 			"nodejs": "ibm-bluemix-mobile-services/bluemix-objectstorage-serversdk-nodejs",
 			"swift": "ibm-bluemix-mobile-services/bluemix-objectstorage-serversdk-swift",
 			"npm": "bluemix-objectstorage",
-			"cocoapods": "BluemixObjectStorage"
+			"cocoapods": "BluemixObjectStorage",
+			"codacy-ios": "24ddc2957b5449b38e554174529ed79e",
+			"codacy-swift": "8f7f31755ad74990a201ca558b94f37f",
+			"codacy-android": "22fcc55378714620bfea8f14ea2a1932",
+			"codacy-nodejs": "6724a24e8ef148d3baaf82a77fa37d7e"
 		},
 		{
 			"name": "BluemixSimpleLogger",
 			"htmlClass": "misc",
-			"swift": "ibm-bluemix-mobile-services/bluemix-simple-logger-swift"
+			"swift": "ibm-bluemix-mobile-services/bluemix-simple-logger-swift",
+			"codacy-swift": "25f6740a510f4f5cabb023e8be2b1556"
 		},
 		{
 			"name": "BluemixSimpleHttpClient",
 			"htmlClass": "misc",
-			"swift": "ibm-bluemix-mobile-services/bluemix-simple-http-client-swift"
+			"swift": "ibm-bluemix-mobile-services/bluemix-simple-http-client-swift",
+			"codacy-swift": "25b6fd1941dc49e8991a20325ddd2105"
 		}
 	]
 }
